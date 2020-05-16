@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form page</title>
+</head>
+<body>
+  <form>
+    <!-- Form for text type -->
+    <div>
+      <input name="ID" type="text" placeholder="username">
+      <input name="password" type="password" placeholder="password">
+    </div>
+
+    <!-- Form for multiple choice -->
+    <div>
+      <input name="color" type="radio" value="red"> Red
+      <input name="color" type="radio" value="blue"> Blue
+      <input name="color" type="radio" value="green"> Green
+      <input name="color" type="radio" value="yellow"> Yellow
+    </div>
+
+    <div>
+      <input name="school" list="schools" placeholder="School">
+      <datalist id="schools">
+        <option value="Duke">
+        <option value="Harvard">
+        <option value="MIT">
+        <option value="SIS">
+      </datalist>
+    </div>
+  </form>
+</body>
+</html>
